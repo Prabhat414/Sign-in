@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.continer{
+    width: 70%;
+    height: 70%;
+    background-color: transparent;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 40px black;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    color: black;
+}
+.content > h1{
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: helvetica;
+    margin-left: 60px;
+}
+.content > p{
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.content > h2{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.content > button{
+    padding: 8px 15px;
+    margin-left: 60px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: aqua;
+    margin-top: 40px;
+}
+.content > h3{
+    margin-left: 60px;
+    margin-top: 40px;
+    font-family: helvetica;
+    font-weight: 900;
+    font-size: 40px;
+}
+.contents{
+    width: 40%;
+    height: 100%;
+    left: 60%;
+    font-family: helvetica;
+    position: absolute;
+    background-color: transparent;
+}
+.contents > h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.contents > h2{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 12px;
+}
+.contents  .emai{
+    background-color: rgb(7, 7, 7);
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.contents > h3{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 12px;
+}
+.contents .pass{
+    background-color: black;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.contents > button{
+    padding: 6px 70px;
+    border-radius: 50px;
+    margin-top: 40px;
+    color: black;
+    background-color: transparent;
+    border-color: aqua;
+    margin-left: 50px;
+}
